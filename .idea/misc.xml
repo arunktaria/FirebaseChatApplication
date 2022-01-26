@@ -17,6 +17,7 @@
         <entry key="..\:/Users/Arun/Documents/FirebaseChatApplication/app/src/main/res/layout/activity_login.xml" value="0.16" />
         <entry key="..\:/Users/Arun/Documents/FirebaseChatApplication/app/src/main/res/layout/activity_sign_up.xml" value="0.22" />
         <entry key="..\:/Users/Arun/Documents/FirebaseChatApplication/app/src/main/res/layout/activity_splash_screen.xml" value="0.12972972972972974" />
+        <entry key="..\:/Users/Arun/Documents/FirebaseChatApplication/app/src/main/res/layout/activity_video_call_activitytemp.xml" value="0.23513513513513515" />
         <entry key="..\:/Users/Arun/Documents/FirebaseChatApplication/app/src/main/res/layout/chatlistitems.xml" value="0.2" />
         <entry key="..\:/Users/Arun/Documents/FirebaseChatApplication/app/src/main/res/layout/chatmainscreen.xml" value="0.2" />
         <entry key="..\:/Users/Arun/Documents/FirebaseChatApplication/app/src/main/res/layout/chatprofiletoolbar.xml" value="0.12972972972972974" />
@@ -27,6 +28,12 @@
         <entry key="..\:/Users/Arun/Documents/FirebaseChatApplication/app/src/main/res/layout/senderlayout.xml" value="0.12972972972972974" />
         <entry key="..\:/Users/Arun/Documents/FirebaseChatApplication/app/src/main/res/layout/toolbarlayout.xml" value="0.2" />
         <entry key="..\:/Users/Arun/Documents/FirebaseChatApplication/app/src/main/res/layout/userslistlayout.xml" value="0.12972972972972974" />
+        <entry key="..\:/Users/Arun/Documents/FirebaseChatApplication/app/src/main/res/layout/videocalllayout.xml" value="0.14054054054054055" />
+        <entry key="..\:/Users/Arun/Downloads/FirebaseChatApplication/app/src/main/res/layout/activity_calling_screen.xml" value="0.125" />
+        <entry key="..\:/Users/Arun/Downloads/FirebaseChatApplication/app/src/main/res/layout/chatmainscreen.xml" value="0.23243243243243245" />
+        <entry key="..\:/Users/Arun/Downloads/FirebaseChatApplication/app/src/main/res/layout/chatprofiletoolbar.xml" value="0.23243243243243245" />
+        <entry key="..\:/Users/Arun/Downloads/FirebaseChatApplication/app/src/main/res/layout/userslistlayout.xml" value="0.23243243243243245" />
+        <entry key="..\:/Users/Arun/Downloads/FirebaseChatApplication/app/src/main/res/layout/videocalllayout.xml" value="0.23479729729729729" />
       </map>
     </option>
   </component>

@@ -64,7 +64,6 @@ class SignUpActivity : AppCompatActivity() {
             } else {
                 binding.password.setError("password must be >=6")
             }
-
         }
 
         binding.cpassword.doOnTextChanged { text, start, before, count ->

@@ -24,14 +24,19 @@
         android:scaleType="centerCrop"
         />
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@{user.username}"
         android:id="@+id/usernametoolitem"
         android:textColor="@color/white"
         android:textSize="20sp"
+        android:layout_weight="0.9"
         android:layout_gravity="top"
         android:layout_marginLeft="16sp"
         />
+
+
+
+
 
 </LinearLayout>

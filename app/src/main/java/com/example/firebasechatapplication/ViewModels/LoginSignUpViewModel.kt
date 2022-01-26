@@ -29,20 +29,14 @@ fun signUp(auth: FirebaseAuth, context: Context, userLoginsData: UserData, datab
                 ob.uid=auth.uid.toString()
                 ob.email=userLoginsData.email.toString()
                 ob.password= userLoginsData.password.toString()
-
                 database.setValue(ob)
-
                 ToastBuilder.toast(context,"success to sign in ")
                 context.startActivity(Intent(context, LoginActivity::class.java))
-
                 progress.dismiss()
-
-
             }else
             {
                 ToastBuilder.toast(context,it.exception.toString()+"  "+userLoginsData.email.toString())
                 progress.dismiss()
-
             }
         }.addOnCanceledListener {
             ToastBuilder.toast(context,"fail to sign in")
@@ -90,10 +84,7 @@ fun signUp(auth: FirebaseAuth, context: Context, userLoginsData: UserData, datab
             .addOnCompleteListener {
                 if (it.isSuccessful)
                 { issuccess=true
-
                     context.startActivity(Intent(context, ProfileListMain::class.java))
-
-
                 }else
                 {
                     context.startActivity(Intent(context, LoginActivity::class.java))
@@ -101,21 +92,9 @@ fun signUp(auth: FirebaseAuth, context: Context, userLoginsData: UserData, datab
             }.addOnCanceledListener {
                 context.startActivity(Intent(context, LoginActivity::class.java))
                 ToastBuilder.toast(context,"fail to sign in")
-
             }
         return issuccess
     }
-
-
-
-
-
-
-
-
-
-
-
 
 
 }

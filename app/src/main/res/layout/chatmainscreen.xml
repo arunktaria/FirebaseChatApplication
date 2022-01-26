@@ -52,20 +52,35 @@
         android:id="@+id/usernametoolitem"
         android:textColor="@color/white"
         android:textSize="20sp"
+        android:layout_weight="0.4"
         android:layout_gravity="top"
         android:layout_marginLeft="16sp"
         />
 
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/videocallimgview"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_marginRight="16sp"
+            android:background="@drawable/videocallimg" />
+<ImageView
+    android:layout_width="15sp"
+    android:layout_height="15sp"
+    android:id="@+id/onlinegreen"
+    android:visibility="gone"
+    android:background="@drawable/onlinegreencircle"
+    android:layout_marginLeft="16sp"
+    android:padding="2sp"
+   />
+
+    </RelativeLayout>
+
 </LinearLayout>
-
-
-
-
-
-
-
-
-
 
 
 
